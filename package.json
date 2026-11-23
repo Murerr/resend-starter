@@ -1,0 +1,16 @@
+{
+  "name": "resend-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal project for sending email with Resend",
+  "scripts": {
+    "send": "node --env-file=.env send.mjs"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "resend": "^4.0.0"
+  }
+}
